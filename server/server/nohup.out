@@ -1,0 +1,662 @@
+account server is listening on 9000
+dealer api is listening on localhost:12581
+client service is listening on port 9001
+game server is listening on localhost:9003
+room service is listening on localhost:9002
+game server is listening on 10000
+game server registered.
+	id:127.0.0.1:10000
+	addr:127.0.0.1
+	http port:9003
+	socket clientport:10000
+(node:49293) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+127.0.0.1:10000
+5f07171cb498d75fd82ecd0de85df3a9
+(node:49294) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+invalid parameters
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+client service is listening on port 9001
+room service is listening on localhost:9002
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::9001
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Function.listen (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/express/lib/application.js:617:24)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/hall_server/client_service.js:315:6)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/hall_server/app.js:10:16)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 9001
+}
+
+Node.js v19.3.0
+account server is listening on 9000
+dealer api is listening on localhost:12581
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::9000
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Function.listen (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/express/lib/application.js:617:24)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/account_server/account_server.js:19:6)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/account_server/app.js:11:4)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 9000
+}
+
+Node.js v19.3.0
+game server is listening on localhost:9003
+game server is listening on 10000
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Server.listen.Server.attach (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:216:9)
+    at new Server (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:50:17)
+    at Server (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:38:41)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/majiang_server/socket_service.js:9:27)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/majiang_server/app.js:15:16)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+Node.js v19.3.0
+problem with request: socket hang up
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+game server is listening on localhost:9003
+game server is listening on 10000
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Server.listen.Server.attach (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:216:9)
+    at new Server (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:50:17)
+    at Server (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:38:41)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/majiang_server/socket_service.js:9:27)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/majiang_server/app.js:15:16)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+Node.js v19.3.0
+account server is listening on 9000
+client service is listening on port 9001
+dealer api is listening on localhost:12581
+room service is listening on localhost:9002
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::9000
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Function.listen (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/express/lib/application.js:617:24)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/account_server/account_server.js:19:6)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/account_server/app.js:11:4)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 9000
+}
+
+Node.js v19.3.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::9001
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Function.listen (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/express/lib/application.js:617:24)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/hall_server/client_service.js:315:6)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/hall_server/app.js:10:16)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 9001
+}
+
+Node.js v19.3.0
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+problem with request: connect ECONNREFUSED ::1:9002
+account server is listening on 9000
+client service is listening on port 9001
+dealer api is listening on localhost:12581
+game server is listening on localhost:9003
+room service is listening on localhost:9002
+game server is listening on 10000
+game server registered.
+	id:127.0.0.1:10000
+	addr:::1
+	http port:9003
+	socket clientport:10000
+(node:73291) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+127.0.0.1:10000
+5f07171cb498d75fd82ecd0de85df3a9
+(node:73292) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+invalid parameters
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+account server is listening on 9000
+dealer api is listening on localhost:12581
+client service is listening on port 9001
+game server is listening on localhost:9003
+room service is listening on localhost:9002
+game server is listening on 10000
+game server registered.
+	id:127.0.0.1:10000
+	addr:::1
+	http port:9003
+	socket clientport:10000
+(node:75774) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+127.0.0.1:10000
+5f07171cb498d75fd82ecd0de85df3a9
+(node:75775) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+invalid parameters
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: socket hang up
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: socket hang up
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+(node:75773) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+client service is listening on port 9001
+room service is listening on localhost:9002
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::9001
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Function.listen (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/express/lib/application.js:617:24)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/hall_server/client_service.js:315:6)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/hall_server/app.js:10:16)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 9001
+}
+
+Node.js v19.3.0
+account server is listening on 9000
+dealer api is listening on localhost:12581
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::9000
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Function.listen (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/express/lib/application.js:617:24)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/account_server/account_server.js:19:6)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/account_server/app.js:11:4)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 9000
+}
+
+Node.js v19.3.0
+game server is listening on localhost:9003
+game server is listening on 10000
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Server.listen.Server.attach (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:216:9)
+    at new Server (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:50:17)
+    at Server (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:38:41)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/majiang_server/socket_service.js:9:27)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/majiang_server/app.js:15:16)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+Node.js v19.3.0
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+account server is listening on 9000
+dealer api is listening on localhost:12581
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::9000
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Function.listen (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/express/lib/application.js:617:24)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/account_server/account_server.js:19:6)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/account_server/app.js:11:4)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 9000
+}
+
+Node.js v19.3.0
+game server is listening on localhost:9003
+client service is listening on port 9001
+room service is listening on localhost:9002
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::9001
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Function.listen (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/express/lib/application.js:617:24)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/hall_server/client_service.js:315:6)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/hall_server/app.js:10:16)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 9001
+}
+
+Node.js v19.3.0
+game server is listening on 10000
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1717:16)
+    at listenInCluster (node:net:1765:12)
+    at Server.listen (node:net:1853:7)
+    at Server.listen.Server.attach (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:216:9)
+    at new Server (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:50:17)
+    at Server (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/node_modules/socket.io/lib/index.js:38:41)
+    at exports.start (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/majiang_server/socket_service.js:9:27)
+    at Object.<anonymous> (/Users/bytedance/Documents/private/miscstone/dadamj/server/server/majiang_server/app.js:15:16)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1744:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+Node.js v19.3.0
+problem with request: socket hang up
+account server is listening on 9000
+dealer api is listening on localhost:12581
+client service is listening on port 9001
+room service is listening on localhost:9002
+game server is listening on localhost:9003
+game server is listening on 10000
+game server registered.
+	id:127.0.0.1:10000
+	addr:::1
+	http port:9003
+	socket clientport:10000
+(node:95589) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+127.0.0.1:10000
+5f07171cb498d75fd82ecd0de85df3a9
+(node:95590) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+invalid parameters
+(node:95588) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET
+problem with request: read ECONNRESET

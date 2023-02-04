@@ -1,4 +1,4 @@
-﻿var HALL_IP = "192.168.1.88";
+﻿var HALL_IP = "127.0.0.1";
 var HALL_CLIENT_PORT = 9001;
 var HALL_ROOM_PORT = 9002;
 
@@ -11,8 +11,8 @@ exports.mysql = function(){
 	return {
 		HOST:'127.0.0.1',
 		USER:'root',
-		PSWD:'',
-		DB:'nodejs',
+		PSWD:'sun+123123',
+		DB:'qipai',
 		PORT:3306,
 	}
 }
